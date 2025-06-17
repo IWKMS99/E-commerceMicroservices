@@ -71,7 +71,6 @@ $RECYCLE.BIN/
 
 # Зависимости
 /lib/
-/libs/
 /dependencies/
 
 # Папки с артефактами сборки
