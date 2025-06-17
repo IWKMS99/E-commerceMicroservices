@@ -1,6 +1,6 @@
-package iwkms.ecommerce.services.userservice.service;
+package iwkms.ecommerce.services.user.service;
 
-import iwkms.ecommerce.services.userservice.dto.LoginDto;
+import iwkms.ecommerce.services.user.dto.LoginDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

@@ -1,4 +1,4 @@
-package iwkms.ecommerce.services.userservice.entity;
+package iwkms.ecommerce.services.user.entity;
 
 import org.springframework.security.core.GrantedAuthority;
 

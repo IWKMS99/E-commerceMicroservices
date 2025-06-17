@@ -1,4 +1,4 @@
-package iwkms.ecommerce.services.userservice.service;
+package iwkms.ecommerce.services.user.service;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.JwtException;

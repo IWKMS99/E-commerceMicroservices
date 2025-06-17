@@ -1,10 +1,10 @@
-package iwkms.ecommerce.services.userservice.service;
+package iwkms.ecommerce.services.user.service;
 
 import iwkms.ecommerce.libs.exception.UserAlreadyExistsException;
-import iwkms.ecommerce.services.userservice.dto.RegisterUserDto;
-import iwkms.ecommerce.services.userservice.entity.Role;
-import iwkms.ecommerce.services.userservice.entity.User;
-import iwkms.ecommerce.services.userservice.repository.UserRepository;
+import iwkms.ecommerce.services.user.dto.RegisterUserDto;
+import iwkms.ecommerce.services.user.entity.Role;
+import iwkms.ecommerce.services.user.entity.User;
+import iwkms.ecommerce.services.user.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

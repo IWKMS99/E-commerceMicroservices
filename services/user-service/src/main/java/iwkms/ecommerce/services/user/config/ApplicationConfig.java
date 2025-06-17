@@ -1,6 +1,6 @@
-package iwkms.ecommerce.services.userservice.config;
+package iwkms.ecommerce.services.user.config;
 
-import iwkms.ecommerce.services.userservice.repository.UserRepository;
+import iwkms.ecommerce.services.user.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -25,7 +25,7 @@ public class ApplicationConfig {
     @Bean
     public UserDetailsService userDetailsService() {
         return username -> {
-            iwkms.ecommerce.services.userservice.entity.User user = userRepository.findByEmail(username)
+            iwkms.ecommerce.services.user.entity.User user = userRepository.findByEmail(username)
                     .orElseThrow(() -> new UsernameNotFoundException("User not found with email: " + username));
 
             return new User(user.getEmail(), user.getPassword(), Collections.singletonList(user.getRole()));

@@ -1,4 +1,4 @@
-package iwkms.ecommerce.services.userservice.config;
+package iwkms.ecommerce.services.user.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

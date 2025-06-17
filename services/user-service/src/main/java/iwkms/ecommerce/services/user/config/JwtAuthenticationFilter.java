@@ -1,6 +1,6 @@
-package iwkms.ecommerce.services.userservice.config;
+package iwkms.ecommerce.services.user.config;
 
-import iwkms.ecommerce.services.userservice.service.JwtService;
+import iwkms.ecommerce.services.user.service.JwtService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

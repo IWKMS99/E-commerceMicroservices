@@ -1,8 +1,8 @@
-package iwkms.ecommerce.services.userservice.controller;
+package iwkms.ecommerce.services.user.controller;
 
-import iwkms.ecommerce.services.userservice.dto.RegisterUserDto;
-import iwkms.ecommerce.services.userservice.entity.User;
-import iwkms.ecommerce.services.userservice.service.UserService;
+import iwkms.ecommerce.services.user.dto.RegisterUserDto;
+import iwkms.ecommerce.services.user.entity.User;
+import iwkms.ecommerce.services.user.service.UserService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

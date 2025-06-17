@@ -1,4 +1,4 @@
-package iwkms.ecommerce.services.userservice.config;
+package iwkms.ecommerce.services.user.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;

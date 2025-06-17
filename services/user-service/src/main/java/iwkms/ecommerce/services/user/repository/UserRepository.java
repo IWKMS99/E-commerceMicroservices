@@ -1,6 +1,6 @@
-package iwkms.ecommerce.services.userservice.repository;
+package iwkms.ecommerce.services.user.repository;
 
-import iwkms.ecommerce.services.userservice.entity.User;
+import iwkms.ecommerce.services.user.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

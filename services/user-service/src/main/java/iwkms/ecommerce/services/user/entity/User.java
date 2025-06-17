@@ -1,4 +1,4 @@
-package iwkms.ecommerce.services.userservice.entity;
+package iwkms.ecommerce.services.user.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;
